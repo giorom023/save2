@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+}
+.yvela {
+  background-color: chartreuse;
+  display: flex;
+  height: 90vh;
+  width: 100%;
+}
+.mainImage {
+  background-color: aqua;
+  height: 100%;
+  width: 30%;
+  overflow: hidden;
+}
+.mainImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainDiv {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
+/*Footer*/
+.footerContainer {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(223, 226, 43);
+  display: flex;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  background-color: gainsboro;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  background-color: cadetblue;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+}
+.Footer1TopDiv {
+  width: 46%;
+  height: 28%;
+  background-color: gainsboro;
+}
+.Footer1BottomDiv {
+  width: 64%;
+  height: 58%;
+  background-color: gainsboro;
+}
+.Footer2TopDiv {
+  width: 46%;
+  height: 28%;
+  background-color: cadetblue;
+}
+.Footer2BottomDiv {
+  width: 30%;
+  height: 20%;
+  background-color: cadetblue;
+}
+.Footer2VeryBottomDiv {
+  width: 30%;
+  height: 25%;
+}
+/*CenterDiv*/
+.centerConteiner {
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+}
+.CenterLeftDiv {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.CenterRightDiv {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.CenterLeftBottomDiv {
+  display: flex;
+  width: 97%;
+  height: 100%;
+  background-color: white;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.CenterLeftBottomTextDiv {
+  display: flex;
+  width: 85%;
+  height: 70%;
+  background-color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+.CenterRightBottomDiv {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+}
+.CenterRightBottomDiv img {
+  width: 100%;
+  height: 100%;
+}
+.CenterLeftBottomIconDiv1 {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  background-color: gray;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.CenterLeftBottomIconDiv2 {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  background-color:cadetblue;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.textbottom {
+  background-color: white;
+  width: 65%;
+  height: 22%;
+}
+.CenterIcon {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 25%;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.CenterIcon5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 36%;
+  background-color: white;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+}
+.Header1 {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+}
+.Header1 img {
+  width: 100%;
+  height: 100%;
+}
+.Header2 {
+  display: flex;
+  width: 78%;
+  height: 100%;
+  background-color: white;
+}
+.Header3 img {
+  width: 100%;
+  height: 100%;
+}
+.Header3 {
+  width: 18%;
+  height: 100%;
+  background-color: grey;
+}
+/*Text*/
+h1 {
+  font-size: 52px;
+  text-align: center;
+}
+.h2 {
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+/*Menu Bar*/
+.menu-bar {
+  width: 100%;
+  margin:auto;
+  background-color: white;
+}
+.menu-bar ul {
+  font-size: 27px;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;}
+
+.menu-bar ul li {
+  display: inline-block;
+}
+
+.menu-bar ul li a {
+  display: block;
+  padding: 20px;
+  color:black;
+  text-decoration: none;
+}
+
+.menu-bar ul li a:hover {
+  background-color: #555;
+}
